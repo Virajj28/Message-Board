@@ -1,10 +1,10 @@
 import './App.css';
-import Input from './components/Input';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Input />
+      <Message/>
     </div>
   );
 }
