@@ -54,7 +54,7 @@ const Message = () => {
             map(item => {
                 return (
                 <div key={item.id}>
-                    <h1>{item.id}</h1>
+                    <h4>{item.id}</h4>
                     <span>{item.title}</span>
                     <button onClick={()=>removeMessage(item.id)}>Delete</button>
                     <button onClick={editData} >Edit</button>
